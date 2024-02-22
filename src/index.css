@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chatBox{
+    width: 100%;
+}
+
+.chatBox .chatSection{
+    display: grid;
+    grid-template-columns: 550px auto;
+}
+
+
+
+.chatSection .contactSection{
+    background-color:white;
+    opacity: 0.9;
+}
+
+.contactSection {
+    padding-top: 120px;
+}
+
+.chatSection .messageSection{
+    background-color: #e3f2fd;
+    opacity: 0.7;
+}
+
+.filterHeader {
+    padding:10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.contactSearchInputBox{
+    width: 535px;
+    height: 40px;
+    background-color: #eeeeee;
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    top: 0;
+    padding-left: 10px;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+}
+
+/* user Contact Styling */
+.mainContactBox{
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-rows: 60px 60px;
+    padding:10px;
+    border-bottom: 1px solid #eeeeee;
+    height: 60px;
+    cursor: pointer;
+}
+.mainContactBox:hover{
+    background-color: #e3f2fd;
+}
+.userImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.userDetailsBox{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userName{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.latestTimeStamp {
+    color:#9e9e9e;
+}
+
+.userLastMessage{
+    color: grey;
+    margin-top: 5px;
+}
+.userLogoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* styling of message section */
+
+
+.messageText{
+    background-color: white;
+    color: black;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+
+.optionMessage{
+    padding:5px 10px;
+    width:600px;
+    background-color: white;
+    min-width: 20px;
+    font-weight: normal;
+    color:black
+}
+
+.optionContainer {
+    background-color: white;
+    display: inline-block;
+    padding:5px 10px;
+    width:600px;
+}
+
+.optionText {
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    color:#2979ff;
+    padding-left: 10px;
+}
+
+.optionSubText {
+    width: 400px;
+    background-color: white;
+    padding:5px 10px
+}
+
+
+
+.emptyMessageText {
+    text-align: center;
+}
+.scrollableMessage, .messageSection{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.messageSection {
+    border: 1px solid #e0e0e0;
+
+}
+
+
+.sendMessage{
+    height: 60px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border:none;
+}
+
+.contactInfo {
+    display: flex;
+    gap:20px;
+    margin-top: 20px;
+    margin-top: -840px;
+    background-color: white;
+    padding:10px;
+}
